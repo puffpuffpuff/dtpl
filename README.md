@@ -11,4 +11,4 @@ bertemakan website apartemen cemara
 6. akan terbuka command promp
 7. di dalam command promp mulai dengan `git init`
 8. lalu tambah repository dengan `git remote add origin https://github.com/puffpuffpuff/dtpl.git`
-9. ambil semua dalam repository dengan `git pull`
+9. ambil semua file dalam repository dengan `git pull`
