@@ -1,0 +1,78 @@
+.header {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    &__logo {
+        margin: 30% 0;
+        text-align: center;
+        &--text-normal {
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 1;
+        }
+        &--text-bold {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1;
+        }
+        &--text-sub {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    }
+    &__menu {
+        &--block {
+            width: 100px;
+            margin: auto;
+            margin-bottom: 20px;
+            position: relative;
+            cursor: pointer;
+        }
+        &--icon {
+            padding: 6px 8px;
+            background: #444;
+            border-radius: 30px;
+            color: white;
+            position: relative;
+            display: inline-block;
+            transform: translateX(80%);
+            transition: .1s cubic-bezier(0.47, 0, 0.745, 0.715);
+            &.active {
+                transform: translateX(0);
+            }
+            &.col-0 {
+                background-color: #EEE3AB;
+            }
+            &.col-1 {
+                background-color: #62B6CB;
+            }
+            &.col-2 {
+                background-color: #B5FFE1;
+            }
+            &.col-3 {
+                background-color: #ED6A5A;
+            }
+            &.col-4 {
+                background-color: lightgray;
+            }
+            i {
+                font-size: 25px;
+                line-height: 1;
+            }
+        }
+        &--text {
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            opacity: 0;
+            transition: .1s;
+            transition-delay: .1s;
+            z-index: -1;
+            &.active {
+                opacity: 1;
+                transition-delay: 0;
+            }
+        }
+    }
+}
