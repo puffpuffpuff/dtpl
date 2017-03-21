@@ -60,7 +60,7 @@
       transition-delay: 0; }
 
 .page-1__block-bg {
-  background: url(../img/sea.jpg) no-repeat;
+  background: url(../img/luxury-apartment.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   display: flex; }
@@ -160,7 +160,7 @@
 .page-2__content-img {
   height: 100%;
   display: block;
-  background: url(../img/mountain1.png); }
+  background: url(../img/apartment-inside.jpg); }
   .page-2__content-img--box {
     height: 70%;
     padding-top: 75px;
