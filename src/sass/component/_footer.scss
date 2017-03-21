@@ -1,0 +1,48 @@
+.footer-main {
+    height: 30vh;
+    &__container {
+        display: block;
+        position: relative;
+    }
+    &__map {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 27vh;
+        &-block {
+            display: inline-block;
+            margin: 10px 0;
+            padding-left: 10px;
+            width: 49%;
+            border-left: 1px solid white;
+        }
+    }
+    &__text {
+        color: white;
+        height: 11vh;
+        border-bottom: 1px solid;
+        &-block {
+            display: inline-block;
+            padding: 10px;
+            width: 49%;
+            float: left
+        }
+        &-address {
+            width: 46%;
+            display: inline-block;
+            margin: 10px;
+            border-right: 1px solid;
+        }
+        &-extra {
+            width: 49%;
+            display: inline-block;
+            margin: 18px 0;
+            padding-left: 10px;
+        }
+    }
+    &__logo {
+        color: white;
+        text-align: center;
+        border-bottom: 1px solid;
+    }
+}

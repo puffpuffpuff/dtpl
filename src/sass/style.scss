@@ -1,4 +1,8 @@
 @import "component/header";
+@import "component/page";
+@import "component/button";
+@import "component/footer";
+@import "component/produk";
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #444;
@@ -6,9 +10,13 @@ body {
 
 section {
     width: 80%;
-    height: 80vh;
+    height: 90vh;
     margin-left: 20%;
+    position: relative;
     &.page-1 {
         background-color: #62b6cb;
+    }
+    &.produk {
+        height: 100vh;
     }
 }

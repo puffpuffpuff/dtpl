@@ -1,0 +1,16 @@
+.btn {
+    &__block {
+        display: block;
+        padding: 15px 0 0;
+        margin-top: 5px;
+        &--sep {
+            border-top: 1px solid;
+        }
+    }
+    &__white {
+        background-color: white;
+        padding: 5px 20px;
+        display: inline-block;
+        color: #444;
+    }
+}
