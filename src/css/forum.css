@@ -1,0 +1,358 @@
+.nodeList {
+  zoom:1;
+}
+
+.sectionMain {
+  background-color:#FCFCFF;
+  border:1px solid #A5CAE4;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  margin:10px auto;
+  padding:10px;
+  font-size:13px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  
+}
+
+.nodeList .node.level_1 {
+  margin-bottom:20px;
+}
+
+.nodeList .node {
+  vertical-align:bottom;
+  zoom:1;
+}
+
+li {
+  list-style:none;
+}
+
+.nodeList .categoryStrip {
+  background:url() 50% 0 repeat-x #F9D9B0;
+  border-bottom-color:#F9BC6D;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-top-color:#F9D9B0;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  border-top-style:solid;
+  border-top-width:1px;
+  color:#6D3F03;
+  font-size:11px;
+  margin:0;
+  min-height:6px;
+  padding:5px 10px;
+}
+
+.node .nodeInfo {
+  overflow:hidden;
+  position:relative;
+  zoom:1;
+}
+
+
+.primaryContent {
+  background-color:#FCFCFF;
+  border-bottom-color:#D7EDFC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  padding:10px;
+}
+
+.node .nodeIcon {
+  float:left;
+  height:36px;
+  margin:10px 0 10px 10px;
+  width:36px;
+}
+
+.node .forumNodeInfo.unread .nodeIcon, .node .categoryForumNodeInfo.unread .nodeIcon {
+  background-image:url(sprites/node-sprite.png);
+  background-position:-36px 0;
+  background-repeat:no-repeat;
+}
+
+.node .nodeText {
+  margin:10px 50px 10px 56px;
+}
+
+.node .unread .nodeText .nodeTitle {
+  font-weight:bold;
+}
+
+.node .nodeText .nodeTitle {
+  font-size:12pt;
+}
+
+.node .nodeStats {
+  font-size:11px;
+  margin-top:2px;
+}
+
+.nodeStats {
+  overflow:hidden;
+  zoom:1;
+}
+
+.nodeStats dl, .subForumsPopup {
+  display:block;
+  float:left;
+  margin-right:3px;
+}
+
+.pairsInline dl, .pairsInline dt, .pairsInline dd {
+  display:inline;
+}
+
+dl {
+  margin-bottom:5px;
+  margin-top:0;
+}
+
+.pairs dt, .pairsInline dt, .pairsRows dt, .pairsColumns dt, .pairsJustified dt {
+  color:#969696;
+}
+
+.node .nodeLastPost {
+  background:url() 50% 0 repeat-x #F0F7FC;
+  border:1px solid #D7EDFC;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  font-size:11px;
+  height:50px;
+  line-height:14px;
+  margin:13px;
+  overflow:hidden;
+  padding:13px 21px;
+  position:absolute;
+  right:0;
+  top:0;
+  white-space:nowrap;
+  width:210px;
+  word-wrap:normal;
+}
+
+.secondaryContent {
+  background:url() 50% 0 repeat-x #F0F7FC;
+  border-bottom-color:#D7EDFC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  padding:10px;
+}
+
+.node .nodeLastPost .lastThreadTitle {
+  display:block;
+  max-width:100%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.node .nodeLastPost .lastThreadMeta {
+  display:block;
+}
+
+body .muted, body a.muted, body .muted a {
+  color:#969696;
+}
+
+abbr, acronym {
+  border:0;
+  font-variant:normal;
+}
+
+.node .nodeControls {
+  margin:20px 0;
+  position:absolute;
+  right:242px;
+  top:0;
+}
+
+.nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo {
+  background-color:#FCFCFF;
+  border-bottom-color:#D7EDFC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  padding:0;
+}
+
+.node .nodeInfo.primaryContent, .node .nodeInfo.secondaryContent {
+  padding:0;
+}
+
+.discussionListItem {
+  background-color:#FCFCFF;
+  border-bottom-color:#D7EDFC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+}
+
+.discussionList .sectionHeaders, .discussionListItem {
+}
+
+.discussionList .sectionHeaders, .discussionListItem {
+  display:table;
+  table-layout:fixed;
+  width:100%;
+  word-wrap:normal;
+}
+
+.discussionListItem .posterAvatar {
+	width:60px;
+}
+
+.discussionListItem .listBlock {
+}
+
+.discussionList .posterAvatar {
+  width:52px;
+}
+
+.discussionListItem .posterAvatar .avatarContainer {
+  display:block;
+  position:relative;
+}
+
+a.avatar {
+}
+
+a:link, a:visited {
+  color:#176093;
+  text-decoration:none;
+}
+
+.discussionListItem .posterAvatar .avatar {
+  display:block;
+  height:auto;
+  padding:5px;
+  width:auto;
+}
+
+.discussionListItem .titleText {
+  overflow:hidden;
+  padding:5px;
+  position:relative;
+  zoom:1;
+}
+
+.discussionListItem .title {
+  font-size:11pt;
+  line-height:18px;
+  max-width:100%;
+  word-wrap:break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+
+.discussionListItem .secondRow {
+  clear:both;
+  font-size:11px;
+}
+
+.discussionListItem .posterDate {
+  float:left;
+}
+
+body .muted, body a.muted, body .muted a {
+  color:#969696;
+}
+
+body .faint, body a.faint, body .faint a {
+  color:#C8C8C8;
+}
+
+.discussionListItem .secondRow .controls {
+  float:right;
+  padding-left:20px;
+}
+
+.discussionList .stats {
+}
+
+.discussionListItem .stats {
+  width:140px;
+}
+
+.discussionListItem .posterAvatar, .discussionListItem .stats {
+  background:url() 50% 0 repeat-x #F0F7FC;
+}
+
+.discussionListItem .sectionHeaders dt, .discussionList .sectionHeaders dd, .discussionListItem .listBlock {
+}
+
+.discussionListItem .sectionHeaders dt, .discussionList .sectionHeaders dd, .discussionListItem .listBlock {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.pairsRows, .pairsColumns, .pairsJustified {
+  line-height:1.5;
+}
+
+.discussionListItem .stats .major {
+  font-size:11pt;
+  line-height:18px;
+  margin-top:5px;
+}
+
+.discussionListItem .stats dl {
+  border-left-color:#D7EDFC;
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:#D7EDFC;
+  border-right-style:solid;
+  border-right-width:1px;
+  padding:0 10px;
+}
+
+dl.pairsColumns, dl.pairsJustified, .pairsColumns dl, .pairsJustified dl {
+  overflow:hidden;
+  zoom:1;
+}
+
+.discussionListItem .stats .minor {
+  font-size:11px;
+  margin-bottom:5px;
+}
+
+.pairsJustified dt {
+  float:left;
+  margin-right:5px;
+  max-width:100%;
+}
+
+.pairs dt, .pairsInline dt, .pairsRows dt, .pairsColumns dt, .pairsJustified dt {
+  color:#969696;
+}
+
+.pairsJustified dd {
+  float:right;
+  max-width:100%;
+  text-align:right;
+}
+
+.discussionList .lastPost {
+}
+
+.discussionListItem .lastPost {
+  overflow:hidden;
+  text-align:right;
+  width:150px;
+}
+
+.discussionListItem .main, .discussionListItem .lastPost {
+}
+
+.discussionListItem .lastPostInfo {
+  padding:5px;
+}
